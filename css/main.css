@@ -1,5 +1,5 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: Calibri, serif;
   font-weight: 400;
   color: #fff;
   background-size: 100%;
@@ -34,7 +34,7 @@ body::-webkit-scrollbar-thumb {
 
 .title{
   text-align: center;
-  margin: 20px;
+  margin: 30px;
   font-size: 2vw;
   color: #f1f1f1;
 }
@@ -137,6 +137,7 @@ body::-webkit-scrollbar-thumb {
     text-align: justify;
     margin-right: 30%;
     margin-left: auto;
+    font-weight: bold;
   }
 
   .presentation{
@@ -220,6 +221,7 @@ body::-webkit-scrollbar-thumb {
     text-align: justify;
     margin-right: auto;
     margin-left: auto;
+    font-weight: bold;
   }
 
   .presentation{
