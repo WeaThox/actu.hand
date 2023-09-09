@@ -184,6 +184,13 @@ body::-webkit-scrollbar-thumb {
     font-size: 1.5vw;
   }
 
+  h3{
+    text-align: center;
+    font-size: 1.5vw;
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+  }
+
 }
 
 @media(orientation: portrait) {
