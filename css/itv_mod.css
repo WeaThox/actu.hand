@@ -1,0 +1,110 @@
+body {
+  font-family: Calibri, serif;
+  font-weight: 400;
+  color: #fff;
+  background-size: 100%;
+}
+
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 13px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #2c2c2c;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #414141;
+  border-radius: 20px;
+  border: 3px solid #414141;
+}
+
+.presentation_player{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.question{
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 3%;
+}
+
+
+#itv_picture{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 3%;
+}
+
+img{
+  border-radius: 2%;
+  width: 80%;
+
+  position: relative;
+  left: 10%;
+}
+
+
+.itv{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+button{
+  background-color: #FCBF00;
+  border: none;
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+  font-size: 0.7em;
+  font-weight: 600;
+  cursor: pointer;
+  height: 5vh;
+}
+
+@media(orientation: landscape) {
+  p{
+    font-size: 120%;
+  }
+  h1{
+    text-align: center;
+    margin-top: 1%;
+    font-size: 4vw;
+  }
+
+}
+
+@media(orientation: portrait){
+  p{
+    font-size: 90%;
+  }
+  h1{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 8vw;
+  }
+
+}

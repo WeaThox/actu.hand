@@ -52,6 +52,11 @@ body::-webkit-scrollbar-thumb {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .contact-item {
   height: 60px;
   width: 60px;
@@ -106,8 +111,19 @@ body::-webkit-scrollbar-thumb {
   color: #f1f1f1;
   font-weight: 100;
   text-align: center;
-  margin-top: 50%;
+  margin-top: 5%;
 }
+
+#empty{
+  position: relative;
+  top: 92%;
+}
+
+#empty1{
+  position: relative;
+  top: 92%;
+}
+
 
 
 @media(orientation: landscape) {
@@ -191,6 +207,11 @@ body::-webkit-scrollbar-thumb {
     margin-top: 1.5%;
     margin-bottom: 1%;
   }
+  .images{
+    width: 350px;
+    height: 194.5px;
+    border-radius: 5%;
+  }
 
 }
 
@@ -250,5 +271,10 @@ body::-webkit-scrollbar-thumb {
     top: 60%;
     border-radius: 5%;
     flex-direction: column;
+  }
+  .images{
+    width:262.5px;
+    height: 145.875px;
+    border-radius: 5%;
   }
 }
