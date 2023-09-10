@@ -3,6 +3,8 @@ body {
   font-weight: 400;
   color: #fff;
   background-size: 100%;
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 30 28/var(--tw-bg-opacity));
 }
 
 
@@ -43,6 +45,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 6%;
 }
 
 .rectangle:hover{
@@ -70,17 +73,6 @@ a {
   text-align: center;
 }
 
-.contact_body{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  justify-content: space-around;
-  align-content: space-between;
-}
 
 .contact-item img :hover{
   transform: scale(1.1);
@@ -94,7 +86,7 @@ a {
 }
 
 .footer{
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .itv_body{
@@ -124,12 +116,55 @@ a {
   top: 92%;
 }
 
+.temoignage{
+  height: auto;
+  padding-bottom: 1%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 1%;
+}
+
+.temoignage img{
+  display: flex;
+  width: 50%;
+  height: 70%;
+  min-width: 200px;
+  max-height: 210px;
+  border-radius: 70%;
+  margin: auto;
+}
+.temoignage_body p{
+  font-size: 80%;
+  letter-spacing: 0.05rem;
+  word-wrap: break-word;
+  padding-right: 5%;
+  padding-left: 5%;
+  text-align: justify;
+}
+
+.temoignage_body h3{
+  margin-top: 3%;
+  margin-bottom: 4%;
+}
+
+.temoignage1{
+  text-align: center;
+}
+
+.temoignage2{
+  text-align: center;
+}
+
+.temoignage3{
+  text-align: center;
+}
 
 
 @media(orientation: landscape) {
   .title{
     text-align: center;
-    margin: 20px;
+    margin: 50px;
     font-size: 2vw;
     color: #f1f1f1;
   }
@@ -162,7 +197,7 @@ a {
     flex-direction: row;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 5%;
+    margin-top: 2%;
   }
 
   .text_presentation{
@@ -180,7 +215,7 @@ a {
     height: 5%;
   }
 
-  .itv_title h2 {
+  h2 {
     font-size: 2vw;
   }
   .rectangle{
@@ -197,11 +232,7 @@ a {
     text-align: center;
   }
 
-  .contact_title h2 {
-    font-size: 1.5vw;
-  }
-
-  h3{
+  #footer_text{
     text-align: center;
     font-size: 1.5vw;
     margin-top: 1.5%;
@@ -211,6 +242,43 @@ a {
     width: 350px;
     height: 194.5px;
     border-radius: 5%;
+  }
+  .contact_body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    justify-content: space-around;
+    align-content: space-between;
+  }
+  .temoignage_title{
+    font-size: 1vw;
+    text-align: center;
+    color: #f1f1f1;
+    font-weight: 100;
+    border-color: #3BE7FF;
+  }
+  .temoignage_body div{
+    display: flex;
+    flex-direction: column;
+    width: 26.7%;
+    min-width: 200px;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 5%;
+  }
+  .temoignage_body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    justify-content: space-around;
+    align-content: space-between;
   }
 
 }
@@ -255,8 +323,8 @@ a {
   }
   .itv_title{
     text-align: left;
-    margin-right: 80%;
-    margin-left: 5%;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 10%;
     height: 5%;
   }
@@ -276,5 +344,49 @@ a {
     width:262.5px;
     height: 145.875px;
     border-radius: 5%;
+  }
+
+  .contact_title{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h2{
+    text-align: center;
+  }
+  #footer_text{
+    margin-bottom: 3%;
+  }
+  .contact_body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    justify-content: space-around;
+    align-content: space-between;
+  }
+  .temoignage_body div{
+    display: flex;
+    flex-direction: column;
+    width: 26.7%;
+    min-width: 200px;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 4%;
+    margin-bottom: 8%;
+  }
+  .temoignage_body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    justify-content: space-around;
+    align-content: space-between;
   }
 }

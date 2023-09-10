@@ -3,6 +3,8 @@ body {
   font-weight: 400;
   color: #fff;
   background-size: 100%;
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 30 28/var(--tw-bg-opacity));
 }
 
 
@@ -75,6 +77,12 @@ button{
   font-weight: 600;
   cursor: pointer;
   height: 5vh;
+}
+
+button:hover{
+  transform: scale(1.1);
+  background-position: -60px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 @media(orientation: landscape) {
