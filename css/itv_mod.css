@@ -1,10 +1,10 @@
 body {
   font-family: Calibri, serif;
   font-weight: 400;
-  color: #fff;
+  color: black;
   background-size: 100%;
   --tw-bg-opacity: 1;
-  background-color: rgb(30 30 28/var(--tw-bg-opacity));
+  background-color: #E4E1E1;
 }
 
 
@@ -55,7 +55,7 @@ img{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-top: 5%;
+  margin-top: 3%;
   margin-right: 5%;
   margin-left: 5%;
 }

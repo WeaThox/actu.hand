@@ -1,10 +1,10 @@
 body {
   font-family: Calibri, serif;
   font-weight: 400;
-  color: #fff;
+  color: black;
   background-size: 100%;
   --tw-bg-opacity: 1;
-  background-color: #570530;
+  background-color: #E4E1E1;
 }
 
 
@@ -38,14 +38,14 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
   margin: 30px;
   font-size: 2vw;
-  color: #f1f1f1;
+  color: black;
 }
 
 .interview{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 6%;
+  margin-bottom: 4%;
 }
 
 .rectangle:hover{
@@ -82,7 +82,7 @@ a {
 .contact-item img{
   width: 50px;
   height: 50px;
-  color: #41A3FF;
+  color: black;
 }
 
 .footer{
@@ -100,7 +100,7 @@ a {
 
 .name_itv{
   font-size: 100%;
-  color: #f1f1f1;
+  color: black;
   font-weight: 100;
   text-align: center;
   margin-top: 5%;
@@ -122,7 +122,6 @@ a {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-top: 1%;
 }
 
 .temoignage img{
@@ -135,12 +134,14 @@ a {
   margin: auto;
 }
 .temoignage_body p{
-  font-size: 80%;
+  font-size: 100%;
   letter-spacing: 0.05rem;
   word-wrap: break-word;
-  padding-right: 5%;
-  padding-left: 5%;
-  text-align: justify;
+  padding-right: 15%;
+  padding-left: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
 }
 
 .temoignage_body h3{
@@ -166,18 +167,17 @@ a {
     text-align: center;
     margin: 50px;
     font-size: 2vw;
-    color: #f1f1f1;
+    color: black;
   }
   .home img {
     display: flex;
-    width: 40%;
-    height: 90%;
-    min-width: 130px;
+    width: 20%;
+    height: 85%;
+    min-width: 240px;
     margin-top: auto;
     margin-left: auto;
     margin-right: 10%;
     border-radius: 50%;
-    border: 5px solid #F3F56F;
   }
 
   .presentation p{
@@ -258,9 +258,11 @@ a {
   }
   .temoignage_title{
     font-size: 1vw;
-    text-align: center;
-    color: #f1f1f1;
-    font-weight: 100;
+    margin-right: 80%;
+    margin-left: 5%;
+    margin-top: 4%;
+    height: 5%;
+    color: black;
     border-color: #3BE7FF;
   }
   .temoignage_body div{
@@ -290,11 +292,11 @@ a {
     text-align: center;
     margin: 20px;
     font-size: 4vw;
-    color: #f1f1f1;
+    color: black;
   }
   .home img {
     display: flex;
-    width: 40%;
+    width: 25%;
     min-width: 30px;
     margin-top: auto;
     margin-left: auto;
